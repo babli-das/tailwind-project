@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+/* .hero-img {
+  background-image: url(https://img.freepik.com/free-photo/modern-technology-trending-innovation-concept_53876-21317.jpg?t=st=1742970742~exp=1742974342~hmac=8d2b09381710a2f3e595cabf4981298e0ec9aa0afebe2794c0e9ae01e4d920d9&w=1380);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #5cbca8;
+  background-color: transparent;
+  color: black;
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #5cbca8;
+  color: white;
+  box-shadow: 2px 2px 5px #00000079;
+}
+
+input,
+textarea {
+  width: 100%;
+  outline: none;
+  border: 1px solid #5cbca8;
+  padding: 0.5rem 1rem;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 2px 2px 5px #5cbca986;
+}
+
+footer {
+  background-image: url(./ftyu6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5cbca8;
+  border-radius: 50%;
+  padding: 0.5rem 0.65rem;
+  box-shadow: 2px 2px 5px #5cbca986;
+  transition: all 0.3s ease-in-out;
+}
+
+.social a:hover {
+  scale: 1.05;
+  transform: translateY(-5px);
+}
+
+.social a i {
+  font-size: 1.5rem;
+}
